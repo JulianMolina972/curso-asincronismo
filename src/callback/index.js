@@ -6,7 +6,7 @@ function calc(num1, num2, callback) {
     return callback(num1, num2);
 }
 
-console.log(calc(12, 3, sum));
+console.log(calc(121231, 3, sum));
 
 function date(callback) {
     console.log(new Date);
